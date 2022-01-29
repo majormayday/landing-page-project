@@ -1,0 +1,193 @@
+.body {
+    font-family: Roboto, sans-serif;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+/*----------Header stuff---------------*/
+.header {
+    color:#F9FAF8;
+    justify-content: space-between; 
+    align-content:center;
+  
+}
+
+.header, .welcome {
+    background-color:#1F2937;
+    padding-left:15%;
+    padding-right:15%;
+    font-family: Roboto, sans-serif;
+    display:flex;
+}
+.logo {
+    display:flex;
+    font-size:24px;
+    font-weight:bold;
+    align-items:center;
+}
+
+/*----------Description/Placeholder image stuff---------------*/
+.desc {
+    display:flex;
+    flex-direction: column;
+    align-content:flex-end;
+    flex:1;
+}
+.hello {
+    font-size: 48px;
+    font-weight:900;
+    color:#F9FAF8;
+    padding-top:20px;
+
+}
+.hello-more {
+    font-size:18px;
+    color:#E5E7EB;
+}
+.placeholder {
+    background-color: #E5E7EB;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex:1;
+    height:200px;
+}
+.welcome {
+    padding-top:50px;
+    padding-bottom: 50px;
+    gap:50px;
+}
+.sign-up {
+    background-color: #3882f6;
+    border-radius:8px;
+    outline:none;
+    border:none;
+    color:#E5E7EB;
+    padding:10px 0;
+    flex-shrink:auto;
+    width:100px;
+}
+/*----------Info/ Card Stuff---------------*/
+.info{
+    display:flex;
+    flex-direction: column;
+    align-content:center;
+    justify-content:center;
+    padding-left:25%;
+    padding-right:25%;
+}
+.info-header{
+    font-size: 36px;
+    color:#1F2937;
+    text-align: center;
+    font-family:Roboto, sans-serif;
+    font-weight:900;
+}
+.cards{
+    display:flex;
+    justify-content:space-evenly;
+
+}
+.card {
+    display:flex;
+    flex-direction: column;
+}
+.illus {
+    border-color:#3882f6;
+    border-style:solid;
+    border-width:4px;
+    border-radius:15px;
+    height:100px;
+    flex-shrink: 0;
+
+}
+.card-text{
+    flex:1;
+}
+/*----------Quote Stuff---------------*/
+.quote {
+    font-family:Roboto, sans-serif;
+    text-align:center;
+    padding-left:20%;
+    padding-right:20%;
+    font-style:italic;
+    background-color: #E5E7EB;
+    padding-top:40px;
+    padding-bottom:40px;
+    font-size:36px;
+    font-weight:lighter;
+}
+.quote-src {
+    text-align:right;
+    font-style:normal;
+    font-weight:bold;
+    font-size:18px;
+}
+/*----------Call to action---------------*/
+
+.call-2-action{
+    background-color:#3882f6;
+    display:flex;
+    margin-left:15%;
+    margin-right:15%;
+    border-radius:15px;
+    margin-top:80px;
+    margin-bottom:80px;
+    justify-content: space-evenly;
+    padding-top:20px;
+    padding-bottom:20px;
+    align-items:center;
+
+}
+
+.action-call {
+    font-family:Roboto,sans-serif;
+    font-size:18px;
+    color:white;
+    font-weight:bold;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:40px;
+    padding-right:40px;
+
+}
+.action-sub{
+    font-weight:normal;
+}
+
+.sign-up-white {
+    background-color: #3882f6;
+    border-radius:8px;
+    border-color:#E5E7EB;
+    border:solid;
+    color:#E5E7EB;
+    padding:10px 0;
+    width:150px;
+    height:40px;
+}
+
+
+/*----------Footer stuff---------------*/
+.footer {
+    background-color:#1F2937;
+    color:#F9FAF8;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family: "Roboto Light", sans-serif;
+    height:100px;
+}
+
+ul {
+    list-style-type: none;
+    display:flex;
+    gap:20px;
+    font-size:18px;
+}
+
+
+a {
+    text-decoration: none;
+    font-size:18px;
+    color:#E5E7EB;
+}
