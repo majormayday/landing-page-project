@@ -120,8 +120,8 @@ body {
 .quote {
     font-family:Roboto, sans-serif;
     text-align:center;
-    padding-left:400px;
-    padding-right:400px;
+    padding-left:25%;
+    padding-right:25%;
     font-style:italic;
     background-color: #E5E7EB;
     padding-top:80px;
